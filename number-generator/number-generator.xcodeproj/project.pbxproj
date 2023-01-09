@@ -13,6 +13,8 @@
 		406D68F3296BEA0A001BBE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D68F1296BEA0A001BBE76 /* LaunchScreen.storyboard */; };
 		406D68FD296BEA6F001BBE76 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D68FC296BEA6F001BBE76 /* SettingsVC.swift */; };
 		406D68FF296BEA84001BBE76 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D68FE296BEA84001BBE76 /* MainVC.swift */; };
+		406D6901296BEAC4001BBE76 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D6900296BEAC4001BBE76 /* MainUIView.swift */; };
+		406D6903296BEAD3001BBE76 /* SettingsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D6902296BEAD3001BBE76 /* SettingsUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		406D68F4296BEA0A001BBE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406D68FC296BEA6F001BBE76 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		406D68FE296BEA84001BBE76 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		406D6900296BEAC4001BBE76 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
+		406D6902296BEAD3001BBE76 /* SettingsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		406D68FB296BEA5A001BBE76 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				406D6900296BEAC4001BBE76 /* MainUIView.swift */,
+				406D6902296BEAD3001BBE76 /* SettingsUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			files = (
 				406D68EB296BEA09001BBE76 /* ViewController.swift in Sources */,
 				406D68FF296BEA84001BBE76 /* MainVC.swift in Sources */,
+				406D6901296BEAC4001BBE76 /* MainUIView.swift in Sources */,
+				406D6903296BEAD3001BBE76 /* SettingsUIView.swift in Sources */,
 				406D68E7296BEA09001BBE76 /* AppDelegate.swift in Sources */,
 				406D68FD296BEA6F001BBE76 /* SettingsVC.swift in Sources */,
 			);
